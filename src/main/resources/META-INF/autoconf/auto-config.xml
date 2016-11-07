@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <group>
+        <!-- log4j2 -->
+        <property name="log4j2.filename" description="log4j2日志的文件名" defaultValue="/Users/kyg/logs/kyg/kyg"/>
+    </group>
+    <script>
+        <generate template="log4j2.xml"/>
+    </script>
+</config>
